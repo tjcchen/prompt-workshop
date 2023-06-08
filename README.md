@@ -26,5 +26,8 @@ output:
 └── utils            # utilitity functions
 ```
 
+## Links
+1. Google Authentication: https://console.cloud.google.com/
+
 ## License
 This project is licensed under the terms of the MIT license.
