@@ -42,7 +42,10 @@ git rm .env --cached
 
 3. NextAuth Documentation: https://next-auth.js.org/getting-started/example
 
-4. OpenSSL Terminal Online: https://www.cryptool.org/en/cto/openssl
+4. NextAuth Provider Config: https://next-auth.js.org/configuration/providers/oauth
+
+5. OpenSSL Terminal Online: https://www.cryptool.org/en/cto/openssl
+
 
 ## License
 This project is licensed under the terms of the MIT license.
