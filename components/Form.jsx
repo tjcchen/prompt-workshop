@@ -7,8 +7,8 @@ const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
         <span className="blue_gradient">{type} Post</span>
       </h1>
       <p className="desc text-left max-w-md">
-        {type} and share amazing prompts with the world, and let your imagination run wild
-        with any AI-powered platform.
+        {type} and share amazing prompts with the world, and let your
+        imagination run wild with any AI-powered platform.
       </p>
 
       <form
@@ -23,10 +23,12 @@ const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
 
           <textarea
             value={post.prompt}
-            onChange={(e) => setPost({
-              ...post,
-              prompt: e.target.value
-            })}
+            onChange={(e) =>
+              setPost({
+                ...post,
+                prompt: e.target.value,
+              })
+            }
             placeholder="Write your prompt here..."
             required
             className="form_textarea"
@@ -37,15 +39,19 @@ const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
         <label>
           <span className="font-satoshi font-semibold text-base text-gray-700">
             Tag {` `}
-            <span className="font-normal">(#product, #webdevelopment, #idea)</span>
+            <span className="font-normal">
+              (#product, #webdevelopment, #idea)
+            </span>
           </span>
 
           <input
             value={post.tag}
-            onChange={(e) => setPost({
-              ...post,
-              tag: e.target.value
-            })}
+            onChange={(e) =>
+              setPost({
+                ...post,
+                tag: e.target.value,
+              })
+            }
             placeholder="#tag"
             required
             className="form_input"
@@ -55,10 +61,7 @@ const Form = ({ type, post, setPost, submitting, handleSubmit }) => {
         {/* Cancel and Submit Button */}
         <div className="flex-end mx-3 mb-5 gap-4">
           {/* Cancel Button */}
-          <Link
-            href="/"
-            className="text-gray-500"
-          >
+          <Link href="/" className="text-gray-500">
             Cancel
           </Link>
 
