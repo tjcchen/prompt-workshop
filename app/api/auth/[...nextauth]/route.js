@@ -1,6 +1,6 @@
 import NextAuth from "next-auth";
 import GoogleProvider from "next-auth/providers/google";
-// import GithubProvider from "next-auth/providers/github";
+import GithubProvider from "next-auth/providers/github";
 
 import User from "@models/user";
 import { connectToDB } from "@utils/database";
@@ -14,13 +14,13 @@ const handler = NextAuth({
         timeout: 10000,
       }
     }),
-    // GithubProvider({
-    //   clientId: process.env.GITHUB_ID,
-    //   clientSecret: process.env.GITHUB_SECRET,
-    //   httpOptions: {
-    //     timeout: 10000,
-    //   }
-    // }),
+    GithubProvider({
+      clientId: process.env.GITHUB_ID,
+      clientSecret: process.env.GITHUB_SECRET,
+      httpOptions: {
+        timeout: 10000,
+      }
+    }),
   ],
   callbacks: {
     async session({ session }) {
