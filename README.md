@@ -47,11 +47,14 @@ git rm .env --cached
 5. OpenSSL Terminal Online: https://www.cryptool.org/en/cto/openssl
 
 ## To Do Tasks
-```bash
-1. implement search functionality
-2. implement click on tag
-3. implement view other profiles
-```
+[1]. implement search functionality
+   - Search by prompt
+   - Search by tag
+   - Search by username
+
+[2]. implement click on tag
+
+[3]. implement view other profiles
 
 ## The Benefits of Using NextJS
 1. Support both `Server Side Rendering( SSR )` and `Client Side Rendering( CSR )`, which is benenficial to SEO.
