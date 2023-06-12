@@ -23,7 +23,7 @@ const PromptCard = ({ post, handleTagClick, handleEdit, handleDelete }) => {
         <div className="flex-1 flex justify-start items-center gap-3 cursor-pointer">
           {/* Avatar */}
           <Image
-            src={post.creator.image}
+            src={post.creator.image ? post.creator.image : "/assets/images/avatar.png"}
             alt="user_image"
             width={40}
             height={40}
