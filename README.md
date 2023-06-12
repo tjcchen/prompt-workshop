@@ -46,6 +46,12 @@ git rm .env --cached
 
 5. OpenSSL Terminal Online: https://www.cryptool.org/en/cto/openssl
 
+## To Do Tasks
+```bash
+1. implement search functionality
+2. implement click on tag
+3. implement view other profiles
+```
 
 ## License
 This project is licensed under the terms of the MIT license.
