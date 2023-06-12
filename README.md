@@ -109,9 +109,10 @@ export const POST = async (req, res) => {
 ```
 
 4. Automatic code splitting
+
 This feature would load code chunks when needed, reducing the initial load time of a website.
 
-5. It's still just React, we, developers, just need to focus on business logic.
+5. It's still React, we, developers, just need to focus on business logic.
 
 ## Improved SEOs
 ```bash
