@@ -149,6 +149,8 @@ NB: static export and dynamic export cannot be coexisted in a single file
 
 6. Vercel Deployment: https://vercel.com/
 
+7. Github OAuth 2.0 Authentication: https://github.com/settings/developers
+
 
 ## License
 This project is licensed under the terms of the MIT license.
