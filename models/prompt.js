@@ -17,7 +17,7 @@ const PromptSchema = new Schema({
     type: String,
     required: [true, 'Tag is required!']
   }
-});
+}, {collection: "prompts"});
 
 const Prompt = models.Prompt || model("Prompt", PromptSchema);
 

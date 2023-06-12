@@ -18,7 +18,7 @@ const UserSchema = new Schema({
   image: {
     type: String,
   }
-});
+}, {collection: "users"});
 
 // The "models" object is provided by the Mongoose library and stores all the registered models.
 // If a model named "User" already exists in the "models" object, is assigns that existing model to the "User" variable.
