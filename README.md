@@ -35,17 +35,6 @@ openssl rand -base64 32
 git rm .env --cached
 ```
 
-## Links
-1. Google Authentication: https://console.cloud.google.com/
-
-2. MongoDB Atlas: https://www.mongodb.com/atlas
-
-3. NextAuth Documentation: https://next-auth.js.org/getting-started/example
-
-4. NextAuth Provider Config: https://next-auth.js.org/configuration/providers/oauth
-
-5. OpenSSL Terminal Online: https://www.cryptool.org/en/cto/openssl
-
 ## To Do Tasks
 [1]. implement search functionality
    - Search by prompt
@@ -146,6 +135,20 @@ export async function generateMeta() {
 
 NB: static export and dynamic export cannot be coexisted in a single file
 ```
+
+## Links
+1. Google Authentication: https://console.cloud.google.com/
+
+2. MongoDB Atlas: https://www.mongodb.com/atlas
+
+3. NextAuth Documentation: https://next-auth.js.org/getting-started/example
+
+4. NextAuth Provider Config: https://next-auth.js.org/configuration/providers/oauth
+
+5. OpenSSL Terminal Online: https://www.cryptool.org/en/cto/openssl
+
+6. Vercel Deployment: https://vercel.com/
+
 
 ## License
 This project is licensed under the terms of the MIT license.
