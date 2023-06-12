@@ -68,7 +68,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 # Rap your app with BrowserRouter
 <BrowserRouter>
-	<App />  
+  <App />  
 </BrowserRouter>
 
 # Define you Routes in your app and import it on the top
